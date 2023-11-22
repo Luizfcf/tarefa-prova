@@ -1,0 +1,17 @@
+<html><script language="javascript"> op="";//operadores globais.
+num1="0";
+num2="0";
+resp="";
+PrimeiroNumero=true;
+PontoDecimal=false;
+memoria="";
+     //<!-**PROGRAMA APERFEIÇOADO POR LUIZ**->//
+function verificatecla(caracter){
+    if(window.event){// Internet Explorer}
+var tecla = event.keyCode;    
+//alert (PrimiroNumero);
+if((tecla>47) && (tecla<58)) {// Se for numero
+tecla = tecla-48;
+mostra(tecla);}
+}
+}
